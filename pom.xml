@@ -21,7 +21,21 @@
     </properties>
     <name>Non Dynamic Hello World: TESTING PLUGIN</name>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
-    <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
+
+    <developers>
+        <developer>
+            <id>batmat</id>
+            <name>Baptiste Mathus</name>
+            <email>batmat@batmat.net</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <licenses>
         <license>
             <name>MIT License</name>
