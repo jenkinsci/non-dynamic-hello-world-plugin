@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>non-dynamic-hello-world</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <description>TESTING PLUGIN. DO NOT INSTALL IT. This plugin includes an extension that is configured as non dynamically loadable.
         This is designed to be used in automated tests (ATH for instance), that may depend on
         hudson.model.UpdateCenter.isRestartRequiredForCompletion() outcome.
@@ -33,7 +33,7 @@
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-        <tag>non-dynamic-hello-world-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <licenses>
