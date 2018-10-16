@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>3.2</version>
+        <version>3.25</version>
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
@@ -16,7 +16,7 @@
     </description>
     <packaging>hpi</packaging>
     <properties>
-        <jenkins.version>2.89.2</jenkins.version>
+        <jenkins.version>2.138.2</jenkins.version>
         <java.level>8</java.level>
     </properties>
     <name>Non Dynamic Hello World: TESTING PLUGIN</name>
